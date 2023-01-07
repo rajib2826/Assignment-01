@@ -203,7 +203,7 @@ ul li {
 /* Linear gradient section  */
 
 .gradient {
-  background-image: url("/images/watch.png");
+  background-image: url("../images/watch.png");
   background-size: cover;
   height: 100%;
   width: 90%;
