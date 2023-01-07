@@ -135,6 +135,8 @@ ul li {
   margin-top: 10%;
   margin-left: 230px;
   position: relative;
+  z-index: auto;
+
   background: linear-gradient(180deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
 
   /* opacity: 0.5; */
@@ -165,8 +167,74 @@ ul li {
   font-style: bold;
 }
 
+/* contact styles */
+
 .contact {
   display: flex;
-  margin-top: 10%;
-  /* background: #151414; */
+  margin: 10% 0%;
+  padding: 10% 10%;
+  gap: 220px;
+
+  background: #151414;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+
+.contact-sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  width: 485px;
+  height: 78px;
+  margin-top: 16px;
+}
+
+.contact-skill {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.contact-sub-skill {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+a img {
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.contact-item {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* form styles */
+
+.input-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  padding: 10px;
+  background: #151414;
+  border-radius: 5px;
+  border: 1px solid #a2a1a1;
+  margin-top: 15px;
+}
+
+.btn-secondary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  padding: 16px 30px;
+  margin-top: 15px;
+  border-radius: 7px;
 }
